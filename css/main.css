@@ -6,6 +6,24 @@ h1 {
   font-family: 'Open Sans', sans-serif;
 }
 
-a {
-  text-decoration: none;
+#deco-line{
+  position: relative;
+}
+
+#deco-line:before {
+  position: absolute;
+  content: " ";
+  border-top: 2px solid #000;
+  width: 60px;
+  bottom: 12px;
+  left: 10px;
+}
+
+#deco-line:after {
+  position: absolute;
+  content: " ";
+  border-top: 2px solid #000;
+  width: 60px;
+  bottom: 12px;
+  right: -24px;
 }
