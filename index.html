@@ -4,33 +4,71 @@
   <meta charset="utf-8">
   <title>Sarah Norris Portfolio Website</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Open+Sans:800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Open+Sans:400" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 
 </head>
-<body>
-  <header>
-    <nav>
+<body class="">
+  <header class="pad-t">
+    <div class="center-text push">
+      <a href="index.html"><i class="icon i-64"><img src="images/logo.svg"></i></a>
+    </div>
+    <nav class="center-text push-2">
       <ul class="list-group-inline">
-        <li><a class="inline" href="work.html">Work</a></li>
-        <li><a class="inline" href="index.html"><i><svg><use xlink:href="images/icons.svg/logo"/></svg></i></a></li>
-        <li><a class="inline" href="about.html">About</a></li>
+        <li class="gutter-2">
+          <a class="link-box" href="index.html">Home</a>
+        </li>
+        <li class="gutter-2" id="deco-line-header">
+          <a class="link-box" href="work.html">Work</a>
+        </li>
+        <li class="gutter-2">
+          <a class="link-box" href="about.html">About</a>
+        </li>
       </ul>
     </nav>
+
+    <div class="push-0">
+      <a href=""><img class="img-flex" src="https://via.placeholder.com/500x250"></a>
+    </div>
   </header>
 
 
+
+  <section class="grid push-0 center-text">
+    <div class="unit xs-1 s-1 m-2 l-1-3 push-0">
+      <a href="project-1.html"><img class="img-flex" src="https://via.placeholder.com/500"></a>
+    </div>
+    <div class="unit xs-1 s-1 m-2 l-1-3 push-0">
+      <a href="project-1.html"><img class="img-flex" src="https://via.placeholder.com/500"></a>
+    </div>
+    <div class="unit xs-1 s-1 m-2 l-1-3 push-0">
+      <a href="project-1.html"><img class="img-flex" src="https://via.placeholder.com/500"></a>
+    </div>
+  </section>
+
+  <section class="grid push-2 center-text">
+    <div class="unit xs-1 s-1 m-2 l-1-2 push-0">
+      <a href="project-1.html"><img class="img-flex" src="https://via.placeholder.com/500"></a>
+    </div>
+    <div class="unit xs-1 s-1 m-2 l-1-2 push-0">
+      <a href="project-1.html"><img class="img-flex" src="https://via.placeholder.com/500"></a>
+    </div>
+  </section>
+
   <footer>
-    <nav>
+    <nav class="center-text">
       <ul class="list-group-inline">
-        <li><a class="inline" href="https://www.instagram.com/sarahnorrisdesigned/">Instagram</a></li>
-        <li><a class="inline" href="https://vimeo.com/user71120700">Vimeo</a></li>
-        <li><a class="inline" href="https://www.behance.net/norr0076173d">Behance</a></li>
+        <li class="gutter-2"><a class="link-box" href="https://www.instagram.com/sarahnorrisdesigned/">Instagram</a></li>
+        <li class="gutter-2"><a class="link-box" id="deco-line-footer" href="https://vimeo.com/user71120700">Vimeo</a></li>
+        <li class="gutter-2"><a class="link-box" href="https://www.behance.net/norr0076173d">Behance</a></li>
       </ul>
     </nav>
+    <div class="center-text">
+      <p>hello@sarahnorrisdesign.ca</p>
+    </div>
   </footer>
 </body>
 </html>
