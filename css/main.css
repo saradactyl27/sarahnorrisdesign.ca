@@ -1,5 +1,7 @@
 * {
   font-family: 'IBM Plex Mono', monospace;
+  max-width: 2500px;
+  margin: auto;
 }
 
 h1 {
@@ -14,14 +16,14 @@ p {
   font-size: .9em;
 }
 
-#deco-line-header, #deco-line-footer, #deco-line-title {
+#deco-line-header, #deco-line-footer, #deco-line-section-header-short, #deco-line-section-header-long {
   position: relative;
 }
 
 #deco-line-header:before {
   position: absolute;
   content: " ";
-  border-top: 2px solid #000;
+  border-top: 1px solid #000;
   width: 50%;
   bottom: 45%;
   left: -2%;
@@ -30,7 +32,7 @@ p {
 #deco-line-header:after {
   position: absolute;
   content: " ";
-  border-top: 2px solid #000;
+  border-top: 1px solid #000;
   width: 50%;
   bottom: 45%;
   right: -28%;
@@ -39,20 +41,39 @@ p {
 #deco-line-footer:before {
   position: absolute;
   content: " ";
-  border-top: 2px solid #000;
-  width: 90%;
+  border-top: 1px solid #000;
+  width: 65%;
   bottom: 45%;
-  left: -66px;
+  left: -56px;
 }
 
 #deco-line-footer:after {
   position: absolute;
   content: " ";
-  border-top: 2px solid #000;
-  width: 90%;
+  border-top: 1px solid #000;
+  width: 65%;
   bottom: 45%;
-  right: -104%;
+  right: -73%;
 }
+
+#deco-line-section-header-short:after {
+  position: absolute;
+  content: " ";
+  border-top: 1px solid #000;
+  width: 35%;
+  bottom: 45%;
+  left: 35%;
+}
+
+#deco-line-section-header-long:after {
+  position: absolute;
+  content: " ";
+  border-top: 1px solid #000;
+  width: 65%;
+  bottom: 45%;
+  left: 17%;
+}
+
 
 .work-banner-img {
   width: 50%;
