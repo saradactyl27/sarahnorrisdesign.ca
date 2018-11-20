@@ -4,6 +4,10 @@
   margin: auto;
 }
 
+h1,h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
 h1 {
   font-weight: normal;
 }
