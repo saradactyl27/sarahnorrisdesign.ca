@@ -10,27 +10,33 @@
 
 </head>
 <body class="">
-  <header class="pad-t center-text">
+
+  <ul class="skip-links">
+    <li><a href="#nav">Jump to nav</a></li>
+    <li><a href="#main">Jump to Main</a></li>
+  </ul>
+
+  <header role="banner" tabindex="0" class="pad-t center-text">
     <div class="push-1-4">
       <a href="{{site.baseurl}}/index"><i class="icon i-64"><img src="{{site.baseurl}}/images/logo.svg"></i></a>
     </div>
-    <nav class="push-2">
+    <nav id="nav" class="push-2">
       <ul class="list-group-inline">
         <li class="gutter-1-2">
           <a class="link-box milli" href="{{site.baseurl}}/">Home</a>
         </li>
         <li class="gutter-1-2" id="deco-line-header">
-          <a class="link-box milli" href="{{site.baseurl}}/about">About</a>
+          <a class="link-box milli" href="{{site.baseurl}}/about">Me</a>
         </li>
       </ul>
     </nav>
   </header>
 
-  <main>
+  <main role="main" tabindex="0" id="main">
     {{content}}
   </main>
 
-  <footer>
+  <footer role="contentinfo" tabindex="0">
     <nav class="center-text">
       <ul class="list-group-inline push-0">
         <li><a itemprop="url" class="link-box micro" href="https://vimeo.com/user71120700">Vimeo</a></li>
