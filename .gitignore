@@ -4,7 +4,7 @@ npm-debug.log
 vendor
 
 # Jekyll
-_site
+_site/
 .jekyll-metadata
 
 # Temporary files
