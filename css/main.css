@@ -68,7 +68,8 @@ a:hover {
 
 a:focus,
 [tabindex="0"]:focus {
-  outline: 2px solid green;
+  outline: 2px solid red;
+  z-index: 10;
 }
 
 .card:hover img,
