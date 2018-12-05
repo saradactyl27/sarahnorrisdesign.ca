@@ -66,11 +66,18 @@ a:hover {
   width: 90%;
 }
 
-.card:hover img {
+a:focus,
+[tabindex="0"]:focus {
+  outline: 2px solid green;
+}
+
+.card:hover img,
+.card:focus img{
   opacity: 0.5;
 }
 
-.card:hover .middle {
+.card:hover .middle,
+.card:focus .middle {
   opacity: 1;
 }
 

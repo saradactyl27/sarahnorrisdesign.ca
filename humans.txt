@@ -1,0 +1,15 @@
+# Team
+
+Designer & Developer: Sarah Norris <hello@sarahnorrisdesgin.ca>
+Site: http://sarahnorrisdesign.ca
+Instagram: @sarahnorrisdesgin
+Location: Ottawa, Canada
+
+---
+
+#Technology
+
+##Software
+
+- Atom
+- Git + Github
