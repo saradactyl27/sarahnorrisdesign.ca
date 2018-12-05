@@ -12,6 +12,15 @@ h1 {
   font-weight: normal;
 }
 
+.white {
+  color: white;
+  text-shadow: 1px 1px 7px #000;
+}
+
+.black {
+  text-shadow: 1px 1px 7px #eee;
+}
+
 h2 {
   font-size: 1.2em;
 }
@@ -74,22 +83,6 @@ a:hover {
   width: 100%;
 }
 
-/* .section-square {
-  overflow: hidden;
-} */
-
 .img-flex-img {
   width: 200%;
-  /* margin: 0; */
-  /* transform: translate(-24%,-17%); */
 }
-
-/* @media only screen and (min-width: 60em) {
-
-  .img-flex-img {
-    width: 200%;
-    margin: 0;
-    transform: translate(-24%,-17%);
-    }
-
-  } */
