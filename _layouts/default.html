@@ -6,7 +6,7 @@
   <meta name="description" content="{{page.meta}}">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="shortcut icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
   <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
 
 </head>
@@ -17,20 +17,21 @@
     <li><a href="#main">Jump to Main</a></li>
   </ul>
 
-  <header role="banner" tabindex="0" class="pad-t center-text">
-    <div class="push-1-4">
-      <a href="{{site.baseurl}}/index"><i class="icon i-64"><img src="{{site.baseurl}}/images/logo.svg"></i></a>
+  <header role="banner" tabindex="0">
+    <div class="island grid grid-middle wrapper pad-b">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-4">
+        <a href="{{site.baseurl}}/index"><i class="icon i-96"><img src="{{site.baseurl}}/images/logo-new.svg"></i></a>
+      </div>
+
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-3-4">
+        <nav role="navigation" id="nav" class="push-2">
+          <ul class="list-group-inline push-0 text-right pad-t-2">
+            <li class="push-r milli"><a class="link-box" href="{{site.baseurl}}/">Home</a></li>
+            <li class="milli" id="deco-line-header"><a class="link-box" href="{{site.baseurl}}/about">About</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <nav id="nav" class="push-2">
-      <ul class="list-group-inline">
-        <li class="gutter-1-2">
-          <a class="link-box milli" href="{{site.baseurl}}/">Home</a>
-        </li>
-        <li class="gutter-1-2" id="deco-line-header">
-          <a class="link-box milli" href="{{site.baseurl}}/about">About</a>
-        </li>
-      </ul>
-    </nav>
   </header>
 
   <main role="main" tabindex="0" id="main">
