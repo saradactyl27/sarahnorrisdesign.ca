@@ -1,24 +1,13 @@
 * {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Roboto', sans-serif;
   max-width: 2500px;
   margin: auto;
-}
-
-h1,h2 {
-  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #06032B;
+  color: #CFD9E6;
 }
 
 h1 {
   font-weight: normal;
-}
-
-.white {
-  color: white;
-  text-shadow: 1px 1px 7px #000;
-}
-
-.black {
-  text-shadow: 1px 1px 7px #eee;
 }
 
 h2 {
@@ -26,19 +15,19 @@ h2 {
 }
 
 p {
-  font-size: .9em;
-}
-
-.work-banner-img {
-  max-width: 1000px;
-}
-
-a {
-  color: black;
+  font-weight: 300;
 }
 
 a:hover {
-  color: #c2c2c2;
+  color: #BF1F16;
+}
+
+.max-width {
+  max-width: 1000px;
+}
+
+.max-width-small {
+  max-width: 800px;
 }
 
 .card {
@@ -93,4 +82,9 @@ a:focus,
 
 .img-flex-img {
   width: 200%;
+}
+
+.gutter-wide {
+  padding-left: 5.2rem;
+  padding-right: 5.2rem;
 }
